@@ -1,0 +1,235 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+/*-----common style---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* header styles starts*/
+.header {
+  width: 1321px;
+  height: 646px;
+  margin: 50px auto 0 auto;
+  position: relative;
+  border-radius: 30px;
+  background: #161616;
+  gap: 24px;
+  display: flex;
+}
+
+.header-left {
+  margin-left: 95px;
+}
+.header-left h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 70px;
+  width: 531px;
+  margin-top: 111px;
+  color: #ffffff;
+}
+
+.header-left p {
+  width: 506px;
+  height: 78px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #ffffff;
+}
+.header-left a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-left button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 25px;
+  margin-top: 35px;
+  width: 187px;
+  gap: 10px;
+  background: #dd0000;
+  border-radius: 5px;
+  transition: transform 0.6s ease-in 0.1s;
+}
+.fa-angle-right {
+  margin-left: 10px;
+}
+.header:hover > .header-left button {
+  transform: translate(900px, -470px);
+}
+
+.header img {
+  width: 581px;
+  height: 613px;
+  margin-top: 33px;
+  margin-right: 101px;
+}
+
+/* header styles ends*/
+
+/* <!-- section styles starts --> */
+.section1-container {
+    display: flex;
+    width: 1321px;
+    margin: 130px auto;
+    gap: 24px;
+  }
+  
+  .button-groups {
+    width: 312px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 30px;
+    align-items: center;
+  }
+  
+  .button-groups button {
+    width: 252px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+  .button-groups a {
+    text-decoration: none;
+    width: 174px;
+    height: 30px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+  }
+  #btn-bottom {
+    background: #dd0000;
+  }
+  #btn-bottom a {
+    color: #ffffff;
+  }
+
+  .match-fixtures {
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+    gap: 35px;
+    width: 100%;
+
+}
+.fixtures{
+  border: 1px solid rgb(225, 222, 222);
+  border-radius: 16px;
+  padding: 53px 35px;
+  text-align: center;
+}
+.vs{
+  padding: 20px;
+}
+.flag-fixtures{
+  display: flex;
+}
+  /* <!-- section styles ends --> */
+
+  /* view styles start */
+
+.view-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 550;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 18px 40px;
+  background: hsl(0, 100%, 43%);
+  border: none;
+  font-size: 15px;
+  text-align: center;
+  margin: 50px auto;
+  visibility: hidden;
+}
+
+.view-btn a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 550;
+  border: none;
+  background: #dd0000;
+  font-size: 17px;
+}
+  /* footer style starts */
+  
+  .footer-container {
+    height: 440px;
+    text-align: center;
+    background: #161616;
+  }
+  .footer h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  hr {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .all-services {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    color: #efdddd;
+    margin: 50px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .social-icon {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  .fa-facebook-square,
+  .fa-youtube-square,
+  .fa-twitter-square {
+    color: #eeebeb;
+    cursor: pointer;
+    padding-right: 50px;
+  }
+  .fa-facebook-square:hover {
+    color: rgb(180, 74, 74);
+  }
+  
+  .fa-youtube-square:hover {
+    color: rgb(248, 110, 5);
+  }
+  .fa-twitter-square:hover {
+    color: red;
+  }
+  /* footer style ends */
+  
+  /*----- Media Quaries-----*/

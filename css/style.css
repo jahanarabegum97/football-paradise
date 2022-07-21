@@ -44,8 +44,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  /* or 162% */
-
   color: #ffffff;
 }
 .header-left a {
@@ -136,11 +134,12 @@ body {
 
 .card-items {
   width: 312px;
-  height: 412px;
+  height: 400px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
 }
 
 .card-items img {
-  background: url(Egypt-Senegal-1024x683.jpg);
   border-radius: 10px 10px 0px 0px;
 }
 
@@ -190,15 +189,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 131px; */
-  /* height: 47px; */
   color: #ffffff;
   font-weight: 550;
   border: none;
   font-size: 15px;
   border-radius: 5px;
-  padding: 16px 35px;
-  background: #dd0000;
+  padding: 18px 40px;
+  background: hsl(0, 100%, 43%);
   border: none;
   font-size: 15px;
   text-align: center;
@@ -212,7 +209,7 @@ body {
   font-weight: 550;
   border: none;
   background: #dd0000;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* footer style starts */
@@ -238,7 +235,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 20px;
-  color: #efdddd;
+  color: #bcb5b5;
   margin: 50px;
   font-weight: 500;
   font-size: 16px;
@@ -266,3 +263,96 @@ hr {
 }
 /* footer style ends */
 
+/*----- Media Quaries-----*/
+
+/*--- tablet Device--- */
+/* @media only screen and (max-width: 688px) {
+   
+   
+} */
+@media (max-width: 835px) {
+ /* header styles starts*/
+ .header {
+    width: 734px;
+    height: 398px;
+    margin: 50px auto 0 auto;
+    position: relative;
+    border-radius: 30px;
+    background: #161616;
+    gap: 24px;
+    display: flex;
+  }
+  
+  .header-left {
+    margin-left: 95px;
+  }
+  .header-left h1 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 70px;
+    width: 531px;
+    margin-top: 111px;
+    color: #ffffff;
+  }
+  
+  .header-left p {
+    width: 506px;
+    height: 78px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  .header-left a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .header-left button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 25px;
+    margin-top: 35px;
+    width: 187px;
+    gap: 10px;
+    background: #dd0000;
+    border-radius: 5px;
+    transition: transform 0.6s ease-in 0.1s;
+  }
+  .fa-angle-right {
+    margin-left: 10px;
+  }
+  .header:hover > .header-left button {
+    transform: translate(900px, -470px);
+  }
+  
+  .header img {
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    margin-right: 101px;
+  }
+  
+  /* header styles ends*/
+}
+
+@media (max-width: 375px) {
+  .swiper-slide h1 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .swiper-slide h5 {
+    margin: 30px 0px;
+    font-size: 22px;
+  }
+
+  .swiper-slide h6 {
+    font-size: 18px;
+  }
+}
