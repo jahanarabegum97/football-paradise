@@ -4,221 +4,389 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- stylesheet -->
-
+    
+    <!----------css styles link ------------->
     <link rel="stylesheet" href="css/style.css" />
-    <!-- fab-icon -->
+    <link rel="stylesheet" href="css/responsive.css" />
 
-    <link rel="shortcut icon" href="assets/fab-icon.png" type="image/x-icon" />
+      <!-- ------fab-icon --------->
 
-    <!-- font-awesome -->
+      <link rel="shortcut icon" href="assets/fab-icon.png" type="image/x-icon" />
+
+    <!---------- font-awesome link ---------->
     <script
       src="https://kit.fontawesome.com/7ac26841f8.js"
       crossorigin="anonymous"
     ></script>
-
-    <title>Football Paradise</title>
+    <title>Football Paradice</title>
 
   </head>
   <body>
-    <!--header section starts -->
-    <header class="header">
-      <div class="header-left">
-        <h1>The Gratest show on the earth</h1>
-        <p>
-          Contrary to popular belief, Football is not simply played. It has
-          roots in a piece of classical Latin literature from 45 BC, making it
-          over 2000 years old.
-        </p>
-        <button>
-          <a class="watch-btn" href=""
-            >Watch Live <i class="fa-solid fa-angle-right"></i
-          ></a>
-        </button>
+    <!----------------------------------
+         Header Section Start 
+        ----------------------->
+    <header class="container">
+      <div class="top-section d-flex-start">
+        <div class="half-width">
+          <h1>The Greatest show on the earth</h1>
+          <p>Contrary to popular belief, Football is not simply played.</p>
+          <button>
+            <a class="watch-btn" href=""
+              >Watch Live <i class="fa-solid fa-angle-right"></i
+            ></a>
+          </button>
+        </div>
+        <div class="half-width half-center">
+          <img src="assets/Banner Image.png" alt="" />
+        </div>
       </div>
-
-      <img src="assets/Banner Image.png" alt="" />
     </header>
-    <!----header section ends---->
-    <main>
-      <!-- section container starts -->
-      <section class="section1-container">
-        <div class="button-groups">
-          <button><a target="_blank" href="upcoming.html">Upcoming Match</a></button>
-          <button><a href="">All Groups</a></button>
-          <button id="btn-bottom"><a href="">Blog</a></button>
+
+    <!---------------------
+         Header Section End  
+        -------------------------------->
+
+    <!-----------------------------------
+        Blog Section Start  
+        ------------------>
+
+    <main class="container">
+      <section class="blog-section">
+        <div class="manu">
+          <div class="link-btns">
+            <div class="link-btn">
+              <a href="upcoming.html">
+                <button class="btn">Upcoming Match</button>
+              </a>
+            </div>
+            <div class="link-btn">
+              <a href="#">
+                <button class="btn">All Group</button>
+              </a>
+            </div>
+            <div class="link-btn">
+              <a href="index.html">
+                <button class="btn" id="blog">Blog</button>
+              </a>
+            </div>
+          </div>
         </div>
 
-        <div class="cricket">
-          <div class="card-items">
-            <img src="assets/Blog Image.png" alt="" />
-            <br />
-            <button><a href="">Transfer</a></button>
-            <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
-
-            <p>
-              <i class="fa-regular fa-clock"></i>
-              <span class="time1">10h</span>
-              <i class="fa-regular fa-message"></i>
-              <span class="time2">23</span>
-            </p>
+        <div class="blogs">
+          <div class="blogs-item">
+            <div>
+              <img src="assets/Blog Image.png" alt="" />
+            </div>
+            <article>
+              <button>Transfer</button>
+              <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+              <div class="footer">
+                <div class="d-flex-between">
+                  <div class="icon-area d-flex-between">
+                    <div>
+                      <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div>
+                      <p>10h</p>
+                    </div>
+                  </div>
+                  <div class="icon-area d-flex-between">
+                    <div>
+                      <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div>
+                      <p>23</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
-          <div class="card-items">
-            <img src="assets/Blog Image.png" alt="" />
-            <br />
-            <button><a href="">Transfer</a></button>
-            <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
-
-            <p>
-              <i class="fa-regular fa-clock"></i>
-              <span class="time1">10h</span>
-              <i class="fa-regular fa-message"></i>
-              <span class="time2">23</span>
-            </p>
+          <div class="blogs-item">
+            <div>
+              <img src="assets/Blog Image.png" alt="" />
+            </div>
+            <article>
+              <button>Transfer</button>
+              <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+              <div class="footer">
+                <div class="d-flex-between">
+                  <div class="icon-area d-flex-between">
+                    <div>
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div>
+                      <p>10h</p>
+                    </div>
+                  </div>
+                  <div class="icon-area d-flex-between">
+                    <div>
+                      <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div>
+                      <p>23</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
-          <div class="card-items">
-            <img src="assets/Blog Image.png" alt="" />
-            <br />
-            <button><a href="">Transfer</a></button>
-            <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
-
-            <p>
-              <i class="fa-regular fa-clock"></i>
-              <span class="time1">10h</span>
-              <i class="fa-regular fa-message"></i>
-              <span class="time2">23</span>
-            </p>
+          <div class="blogs-item">
+            <div>
+              <img src="assets/Blog Image.png" alt="" />
+            </div>
+            <article>
+              <button>Transfer</button>
+              <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+              <div class="footer">
+                <div class="d-flex-between">
+                  <div class="icon-area d-flex-between">
+                    <div>
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div>
+                      <p>10h</p>
+                    </div>
+                  </div>
+                  <div class="icon-area d-flex-between">
+                    <div>
+                      <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div>
+                      <p>23</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
-          <div class="card-items">
-            <img src="assets/Blog Image.png" alt="" />
-            <br />
-            <button><a href="">Transfer</a></button>
-            <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
-
-            <p>
-              <i class="fa-regular fa-clock"></i>
-              <span class="time1">10h</span>
-              <i class="fa-regular fa-message"></i>
-              <span class="time2">23</span>
-            </p>
+          <div class="blogs-item">
+            <div>
+              <img src="assets/Blog Image.png" alt="" />
+            </div>
+            <article>
+              <button>Transfer</button>
+              <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+              <div class="footer">
+                <div class="d-flex-between">
+                  <div class="icon-area d-flex-between">
+                    <div>
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div>
+                      <p>10h</p>
+                    </div>
+                  </div>
+                  <div class="icon-area d-flex-between">
+                    <div>
+                      <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div>
+                      <p>23</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
-          <div class="card-items">
-            <img src="assets/Blog Image.png" alt="" />
-            <br />
-            <button><a href="">Transfer</a></button>
-            <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
-
-            <p>
-              <i class="fa-regular fa-clock"></i>
-              <span class="time1">10h</span>
-              <i class="fa-regular fa-message"></i>
-              <span class="time2">23</span>
-            </p>
+          <div class="blogs-item">
+            <div>
+              <img src="assets/Blog Image.png" alt="" />
+            </div>
+            <article>
+              <button>Transfer</button>
+              <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+              <div class="footer">
+                <div class="d-flex-between">
+                  <div class="icon-area d-flex-between">
+                    <div>
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div>
+                      <p>10h</p>
+                    </div>
+                  </div>
+                  <div class="icon-area d-flex-between">
+                    <div>
+                      <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div>
+                      <p>23</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
-          <div class="card-items">
-            <img src="assets/Blog Image.png" alt="" />
-            <br />
-            <button><a href="">Transfer</a></button>
-            <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
-
-            <p>
-              <i class="fa-regular fa-clock"></i>
-              <span class="time1">10h</span>
-              <i class="fa-regular fa-message"></i>
-              <span class="time2">23</span>
-            </p>
+          <div class="blogs-item">
+            <div>
+              <img src="assets/Blog Image.png" alt="" />
+            </div>
+            <article>
+              <button>Transfer</button>
+              <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+              <div class="footer">
+                <div class="d-flex-between">
+                  <div class="icon-area d-flex-between">
+                    <div>
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div>
+                      <p>10h</p>
+                    </div>
+                  </div>
+                  <div class="icon-area d-flex-between">
+                    <div>
+                      <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div>
+                      <p>23</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
-          <div class="card-items">
-            <img src="assets/Blog Image.png" alt="" />
-            <br />
-            <button><a href="">Transfer</a></button>
-            <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
-
-            <p>
-              <i class="fa-regular fa-clock"></i>
-              <span class="time1">10h</span>
-              <i class="fa-regular fa-message"></i>
-              <span class="time2">23</span>
-            </p>
+          <div class="blogs-item">
+            <div>
+              <img src="assets/Blog Image.png" alt="" />
+            </div>
+            <article>
+              <button>Transfer</button>
+              <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+              <div class="footer">
+                <div class="d-flex-between">
+                  <div class="icon-area d-flex-between">
+                    <div>
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div>
+                      <p>10h</p>
+                    </div>
+                  </div>
+                  <div class="icon-area d-flex-between">
+                    <div>
+                      <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div>
+                      <p>23</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
-          <div class="card-items">
-            <img src="assets/Blog Image.png" alt="" />
-            <br />
-            <button><a href="">Transfer</a></button>
-            <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
-
-            <p>
-              <i class="fa-regular fa-clock"></i>
-              <span class="time1">10h</span>
-              <i class="fa-regular fa-message"></i>
-              <span class="time2">23</span>
-            </p>
+          <div class="blogs-item">
+            <div>
+              <img src="assets/Blog Image.png" alt="" />
+            </div>
+            <article>
+              <button>Transfer</button>
+              <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+              <div class="footer">
+                <div class="d-flex-between">
+                  <div class="icon-area d-flex-between">
+                    <div>
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div>
+                      <p>10h</p>
+                    </div>
+                  </div>
+                  <div class="icon-area d-flex-between">
+                    <div>
+                      <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div>
+                      <p>23</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
-          <div class="card-items">
-            <img src="assets/Blog Image.png" alt="" />
-            <br />
-            <button><a href="">Transfer</a></button>
-            <p>Transfer Live: Chlesea in talks over Kimpenbe transfer</p>
-
-            <p>
-              <i class="fa-regular fa-clock"></i>
-              <span class="time1">10h</span>
-              <i class="fa-regular fa-message"></i>
-              <span class="time2">23</span>
-            </p>
+          <div class="blogs-item" id="hidden-blog">
+            <div>
+              <img src="assets/Blog Image.png" alt="" />
+            </div>
+            <article>
+              <button>Transfer</button>
+              <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+              <div class="footer">
+                <div class="d-flex-between">
+                  <div class="icon-area d-flex-between">
+                    <div>
+                      <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <div>
+                      <p>10h</p>
+                    </div>
+                  </div>
+                  <div class="icon-area d-flex-between">
+                    <div>
+                      <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div>
+                      <p>23</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
-      <!-- section container ends -->
+      <!---------------
+        Blog Section End 
+         ---------------------------------------->
 
-      <!-- view all starts -->
-
-      <button class="view-btn">View All</button>
-
-      <!-- view all starts -->
+      <!-----------------------------------
+         "View All" Section Start 
+        -------------------------->
     </main>
+    <section class="view-all-section">
+      <div>
+        <button class="btn">View All</button>
+      </div>
+    </section>
+    <!---------------------------
+         "View All" Section End 
+        ----------------------------------------->
 
-    <!-- footer section starts -->
+    <!-----------------------------------
+     Footer Section Start  
+     ---------------------->
 
-    <footer class="footer-container">
-      <div class="footer">
-        <h1>Goal</h1>
-        <hr />
-        <div class="all-services">
-          <div>
-            <p>Contact Us</p>
-        </div>
-          <div>
-            <p>Terms of Service</p>
-        </div>
-          <div>
-            <p>Privacy Policy</p>
-        </div>
-          <div>
-            <p>Privacy Settings</p>
-        </div>
-          <div>
-            <p>Goal App</p>
-        </div>
-          <div>
-            <p>Goal Live</p>
-        </div>
-        </div>
-        <div class="social-icon">
-          <a
-            target="_blank"
-            href="https://www.facebook.com/thefootballarenaa/"
-            ><i class="fa-brands fa-facebook-square"></i
-          ></a>
-          <a target="_blank" href="https://www.youtube.com/watch?v=nz_FKbcsKjc"
-            ><i class="fa-brands fa-youtube-square"></i
-          ></a>
-          <a target="_blank" href="https://en.wikipedia.org/wiki/Twitter"
-            ><i class="fa-brands fa-twitter-square"></i
-          ></a>
-        </div>
+    <footer>
+      <div class="goal-area">
+        <h3>Goal</h3>
+      </div>
+      <hr />
+
+      <div class="footer-link-area d-flex-between">
+        <div><a href="">Contact Us</a></div>
+        <div><a href="">Terms of Service</a></div>
+        <div><a href="">Privacy Policy</a></div>
+        <div><a href="">Privacy setting</a></div>
+        <div><a href="">Goal App</a></div>
+        <div><a href="">Goal Live</a></div>
+      </div>
+      <div class="social-icon">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/thefootballarenaa/"
+          ><i class="fa-brands fa-facebook-square"></i
+        ></a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=nz_FKbcsKjc"
+          ><i class="fa-brands fa-youtube-square"></i
+        ></a>
+        <a target="_blank" href="https://en.wikipedia.org/wiki/Twitter"
+          ><i class="fa-brands fa-twitter-square"></i
+        ></a>
       </div>
     </footer>
-    <!-- footer section ends -->
+    <!-----------------
+     Footer Section End  
+     ---------------------------------->
   </body>
 </html>
